@@ -1,0 +1,172 @@
+Waking up the zoo
+Henry the Hippo is awake
+Harry the Hippo is awake
+Eli the Elephant is awake
+Elijah the Elephant is awake
+Ray the Rhino is awake
+Rachel the Rhino is awake
+Tony the Tiger is awake
+Tom the Tiger is awake
+Leo the Lion is awake
+Lucy the Lion is awake
+Chris the Cat is awake
+Chloe the Cat is awake
+Will the Wolf is awake
+Wendy the Wolf is awake
+David the Dog is awake
+Dan the Dog is awake
+Doing rollcall
+Henry the Hippo says hello
+Harry the Hippo says hello
+Eli the Elephant trumpets
+Elijah the Elephant trumpets
+Ray the Rhino says what's up
+Rachel the Rhino says what's up
+Tony the Tiger growls
+Tom the Tiger growls
+Leo the Lion roars
+Lucy the Lion roars
+Chris the Cat meows
+Chloe the Cat purrs
+Will the Wolf howls
+Wendy the Wolf howls
+David the Dog barks
+Dan the Dog barks
+Feeding the zoo
+Henry the Hippo is eating
+Harry the Hippo is eating
+Eli the Elephant is eating
+Elijah the Elephant is eating
+Ray the Rhino is eating
+Rachel the Rhino is eating
+Tony the Tiger is eating
+Tom the Tiger is eating
+Leo the Lion is eating
+Lucy the Lion is eating
+Chris the Cat is eating
+Chloe the Cat is eating
+Will the Wolf is eating
+Wendy the Wolf is eating
+David the Dog is eating
+Dan the Dog is eating
+Exercising the zoo
+Henry the Hippo is roaming
+Harry the Hippo is roaming
+Eli the Elephant is roaming
+Elijah the Elephant is roaming
+Ray the Rhino is roaming
+Rachel the Rhino is roaming
+Tony the Tiger is roaming
+Tom the Tiger is roaming
+Leo the Lion is roaming
+Lucy the Lion is roaming
+Chris the Cat is roaming
+Chloe the Cat is roaming
+Will the Wolf is roaming
+Wendy the Wolf is roaming
+David the Dog is roaming
+Dan the Dog is roaming
+Shutting down the zoo
+Henry the Hippo is sleeping
+Harry the Hippo is sleeping
+Eli the Elephant is sleeping
+Elijah the Elephant is sleeping
+Ray the Rhino is sleeping
+Rachel the Rhino is sleeping
+Tony the Tiger is sleeping
+Tom the Tiger is sleeping
+Leo the Lion is sleeping
+Lucy the Lion is sleeping
+Chris the Cat is sleeping
+Chloe the Cat is sleeping
+Will the Wolf is sleeping
+Wendy the Wolf is sleeping
+David the Dog is sleeping
+Dan the Dog is sleeping
+jovyan@jupyter-mipi6515:~$ javac TestZoo.java
+jovyan@jupyter-mipi6515:~$ java TestZoo
+Waking up the zoo
+Henry the Hippo is awake
+Harry the Hippo is awake
+Eli the Elephant is awake
+Elijah the Elephant is awake
+Ray the Rhino is awake
+Rachel the Rhino is awake
+Tony the Tiger is awake
+Tom the Tiger is awake
+Leo the Lion is awake
+Lucy the Lion is awake
+Chris the Cat is awake
+Chloe the Cat is awake
+Will the Wolf is awake
+Wendy the Wolf is awake
+David the Dog is awake
+Dan the Dog is awake
+Doing rollcall
+Henry the Hippo says hello
+Harry the Hippo says hello
+Eli the Elephant trumpets
+Elijah the Elephant trumpets
+Ray the Rhino says what's up
+Rachel the Rhino says what's up
+Tony the Tiger growls
+Tom the Tiger growls
+Leo the Lion roars
+Lucy the Lion roars
+Chris the Cat meows
+Chloe the Cat meows
+Will the Wolf howls
+Wendy the Wolf howls
+David the Dog barks
+Dan the Dog barks
+Feeding the zoo
+Henry the Hippo is eating
+Harry the Hippo is eating
+Eli the Elephant is eating
+Elijah the Elephant is eating
+Ray the Rhino is eating
+Rachel the Rhino is eating
+Tony the Tiger is eating
+Tom the Tiger is eating
+Leo the Lion is eating
+Lucy the Lion is eating
+Chris the Cat is eating
+Chloe the Cat is eating
+Will the Wolf is eating
+Wendy the Wolf is eating
+David the Dog is eating
+Dan the Dog is eating
+Exercising the zoo
+Henry the Hippo is roaming
+Harry the Hippo is roaming
+Eli the Elephant is roaming
+Elijah the Elephant is roaming
+Ray the Rhino is roaming
+Rachel the Rhino is roaming
+Tony the Tiger is roaming
+Tom the Tiger is roaming
+Leo the Lion is roaming
+Lucy the Lion is roaming
+Chris the Cat is roaming
+Chloe the Cat is roaming
+Will the Wolf is roaming
+Wendy the Wolf is roaming
+David the Dog is roaming
+Dan the Dog is roaming
+Shutting down the zoo
+Henry the Hippo is sleeping
+Harry the Hippo is sleeping
+Eli the Elephant is sleeping
+Elijah the Elephant is sleeping
+Ray the Rhino is sleeping
+Rachel the Rhino is sleeping
+Tony the Tiger is sleeping
+Tom the Tiger is sleeping
+Leo the Lion is sleeping
+Lucy the Lion is sleeping
+Chris the Cat is sleeping
+Chloe the Cat is sleeping
+Will the Wolf is sleeping
+Wendy the Wolf is sleeping
+David the Dog is sleeping
+Dan the Dog is sleeping
