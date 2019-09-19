@@ -3,6 +3,8 @@ import java.util.*;
 class Animal
 {
     private Boolean is_awake_;
+    
+    //Protected so sublcasses can access name easily.
     protected String name_;
     
     public void setName(String name)
@@ -39,7 +41,6 @@ class Animal
 
 class Pachyderm extends Animal
 {
-    //TO DO: Print something I guess?
     public void roam()
     {
         System.out.println(name_+" the "+this.getClass().getSimpleName()+" is roaming");
@@ -64,6 +65,8 @@ class Canine extends Animal
 
 class Hippo extends Pachyderm
 {
+    //Overloaded constructor setting protected name to input string
+    //Subclasses cannot easily inherit constructors from superclass, so each subclass has its own constructor
     public Hippo(String name)
     {
         name_=name;
@@ -130,7 +133,8 @@ class Cat extends Feline
         name_=name;
     }
     
-    //TO DO: randomize output
+    //Cat makes a random noise
+    //Generate random int between [0,2], use switch case to determine output
     public void makeNoise()
     {
         Random rand = new Random();
@@ -166,7 +170,6 @@ class Wolf extends Canine
 
 class Dog extends Canine
 {
-    public Dog(){};
     public Dog(String name)
     {
         name_=name;
@@ -179,6 +182,7 @@ class Dog extends Canine
 
 class Zookeeper
 {
+    //Waking up zoo, for each animal in the zoo, call their wakeup function
     public void wakeUp(List<Animal> zoo)
     {
         System.out.println("Waking up the zoo");
@@ -188,6 +192,7 @@ class Zookeeper
         }
     }
     
+    //Doing roll call, for each animal, have them make a noise
     public void rollCall(List<Animal> zoo)
     {
         System.out.println("Doing rollcall");
@@ -197,6 +202,7 @@ class Zookeeper
         }
     }
     
+    //Feeding zoo
     public void feed(List<Animal> zoo)
     {
         System.out.println("Feeding the zoo");
@@ -206,6 +212,7 @@ class Zookeeper
         }
     }
     
+    //Exercising zoo, for each animal in zoo, have them roam
     public void exercise(List<Animal> zoo)
     {
         System.out.println("Exercising the zoo");
@@ -215,6 +222,7 @@ class Zookeeper
         }
     }
     
+    //Shutting down zoo, for each animal, put them to sleep
     public void shutDownZoo(List<Animal> zoo)
     {
         System.out.println("Shutting down the zoo");
@@ -229,8 +237,10 @@ public class TestZoo
 {
     public static void main(String args[])
     {
+        //Creating list of animals
         List<Animal> zoo = new ArrayList<Animal>();
        
+        //Instantiating animals
         Animal hippo1 = new Hippo("Henry");
         Animal hippo2 = new Hippo("Harry");
         Animal elephant1 = new Elephant("Eli");
@@ -248,6 +258,7 @@ public class TestZoo
         Animal dog1 = new Dog("David");
         Animal dog2 = new Dog("Dan");
 
+        //Populating zoo
         zoo.add(hippo1);
         zoo.add(hippo2);
         zoo.add(elephant1);
@@ -265,8 +276,10 @@ public class TestZoo
         zoo.add(dog1);
         zoo.add(dog2);
         
+        //Instantiating zookeeper
         Zookeeper Noah = new Zookeeper();
         
+        //running zoo
         Noah.wakeUp(zoo);
         Noah.rollCall(zoo);
         Noah.feed(zoo);
